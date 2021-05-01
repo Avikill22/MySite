@@ -1,0 +1,74 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:  'Helvetica Neue', sans-serif;
+    background-color:rgb(172, 209, 243);
+    background-image:  -webkit-linear-gradient(65deg, purple 50%, rgb(172, 209, 243) 50%);
+    min-height: 900px;
+    text-align:center;
+    color:gray;
+    
+}
+.header{
+    color:white;
+    display:inline-block;
+    background-color: purple;
+    padding: 10px 50px;
+    border-radius: 5px 5px;
+    box-shadow:5px 5px 15px -5px rgba(0,0,0,0.3);
+}
+.container{
+    background-color: white;
+    margin:30px 460px;   
+    border-radius: 5px 5px;
+    text-align:left; 
+    box-shadow:5px 5px 15px -5px rgba(0,0,0,0.3);
+}
+ul{
+    list-style-type: none;
+    margin:0px;
+    padding:0px;
+}
+.box{
+    border-bottom:0.5px rgb(170, 170, 170) solid;
+    
+    padding: 15px 10px;
+    
+}
+ .container .box:last-child{
+    border-bottom:none;
+}
+
+li{
+    display:inline;
+    text-decoration: none;
+    font-weight:bold;
+}
+.box > input[type="checkbox"]{
+    width: 10px;
+    
+}
+input[type="checkbox"]:checked{
+    background-color: purple;
+    color:#fff;
+}
+input:checked+li{
+    text-decoration:line-through;
+    text-decoration-color:purple;
+}
+input, textarea:focus, input:focus{
+    outline:none;
+    border:#fff;
+    text-align:center;
+    width:80%;
+    font-size: 1.2rem;
+}
+button{
+    color:#fff;
+    font-size: 2rem;
+    padding:1px 8px;
+    background-color: purple;
+    border-radius:50%;
+    border:#fff;
+    margin-left:10px;
+}
